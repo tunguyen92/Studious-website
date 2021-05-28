@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studious</title>
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+  <link rel="stylesheet"
+    href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <section class="topheader">
+    <div class="container">
+      <div class="top-headers">
+        <ul>
+          <li>
+            <a href="#help">Have any question ?</a>
+          </li>
+          <li>
+            <i class="fa fa-phone"></i><a href="tel:+1(21) 234 4567">+1(21) 234 4567</a>
+          </li>
+          <li>
+            <i class="fa fa-envelope"></i><a href="mailto:mail@example.com">mail@example.com</a>
+          </li>
+        </ul>
+      </div>
+      <div class="top-headers">
+        <ul>
+          <li>
+            <a href="#facebook"><span class="fa fa-facebook"></span></a>
+          </li>
+          <li>
+            <a href="#twitter"><span class="fa fa-twitter"></span></a>
+          </li>
+          <li>
+            <a href="#instagram"><span class="fa fa-instagram"></span></a>
+          </li>
+          <li>
+            <a href="#linkedin"><span class="fa fa-linkedin"></span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <header class="header">
+    <div class="header-container">
+      <nav class="navbar">
+        <h1>
+          <a href="index.html">
+            <img src="./images/logo.png" alt="logo" />
+            Studious
+          </a>
+        </h1>
+        <div class="navbar-collapse">
+          <ul>
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Courses</a>
+            </li>
+            <li onclick="dropdown()" class="nav-item">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Pages <span class="fa fa-angle-down"></span>
+              </a>
+              <div id="myDropdown" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a href="#">Blog Posts</a>
+                <a href="#">Blog Single</a>
+                <a href="#">404 Page</a>
+                <a href="#">Email Template</a>
+                <a href="#">Landing Page</a>
+                <a href="#">Shortcodes</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <!-- search button -->
+            <div class="search-right">
+              <form class="search-box">
+                <div class="input-search">
+                  <input type="search" placeholder="Enter Keyword" name="search" required="required" autofocus=""
+                    class="search-popup" />
+                </div>
+                <button type="submit" class="search-btn">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
+            </div>
+            <!-- //search button -->
+          </ul>
+        </div>
+
+        <!-- toggle switch for light and dark theme -->
+        <div class="theme-switch">
+          <i class="fa fa-sun-o" id="sun"></i>
+          <i class="fa fa-moon-o" id="moon"></i>
+        </div>
+        <!-- //toggle switch for light and dark theme -->
+        <div class="icon menu-btn">
+          <i class="fa fa-bars"></i>
+        </div>
+        <div class="icon cancel-btn">
+          <i class="fa fa-times"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="carousel">
+    <div class="single-item">
+      <div class="slides">
+        <img src="./images/banner2.jpg" />
+        <div class="title">
+          <h1>Master the Skills to Drive your Career</h1>
+          <a href="#"> Know More<i class="fa fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="slides">
+        <img src="./images/banner3.jpg" />
+        <div class="title">
+          <h1>Studious is the best choice for everyone</h1>
+          <a href="#"> Know More <i class="fa fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="banner">
+    <div class="container">
+      <div class="list">
+        <div class="item color-1">
+          <i class="fa fa-cogs" aria-hidden="true"></i>
+          <h1>
+            <a href="courses.html" class="title-head">Engineering & Architecture</a>
+          </h1>
+        </div>
+
+        <div class="item color-2">
+          <i class="fa fa-book" aria-hidden="true"></i>
+          <h1>
+            <a href="courses.html" class="title-head">Learning Management</a>
+          </h1>
+        </div>
+
+        <div class="item color-3">
+          <i class="fa fa-coffee" aria-hidden="true"></i>
+          <h1>
+            <a href="courses.html" class="title-head">Business & Management</a>
+          </h1>
+        </div>
+
+        <div class="item color-4">
+          <i class="fa fa-hourglass-half" aria-hidden="true"></i>
+          <h1>
+            <a href="courses.html" class="title-head">Artificial Intelligence</a>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="welcome">
+    <div class="title">
+      <h1>Welcome to <span>Studious</span></h1>
+    </div>
+    <div class="list">
+      <div class="item">
+        <div class="feature-images">
+          <span class="fa fa-graduation-cap" aria-hidden="true"></span>
+        </div>
+        <div class="feature-info">
+          <a href="#">
+            <h1>Trending Courses</h1>
+          </a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+            eiusmod te incididunt
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="feature-images">
+          <span class="fa fa-users" aria-hidden="true"></span>
+        </div>
+        <div class="feature-info">
+          <a href="#">
+            <h1>Certified Teachers</h1>
+          </a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+            eiusmod te incididunt
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="feature-images">
+          <span class="fa fa-book" aria-hidden="true"></span>
+        </div>
+        <div class="feature-info">
+          <a href="#">
+            <h1>Books & Library</h1>
+          </a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+            eiusmod te incididunt
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="courses">
+    <div class="title">
+      <h1>Pick a Course to <span>Get Started</span></h1>
+    </div>
+    <div class="list">
+      <div class="item">
+        <div class="info">
+          <img src="./images/c1.jpg" alt="" />
+          <div class="meta-list">
+            <a href="courses.html">art</a>
+            <a href="courses.html">design</a>
+          </div>
+          <div class="course-price-item">
+            <h6>$400</h6>
+          </div>
+        </div>
+        <div class="content">
+          <div class="content-top">
+            <ul>
+              <li>
+                <i class="fa fa-signal" aria-hidden="true"></i> Intermediate
+              </li>
+              <li>
+                <i class="fa fa-clock-o" aria-hidden="true"></i> 10 week
+              </li>
+            </ul>
+          </div>
+          <h4><a href="courses.html">Donec sed teus enime</a></h4>
+          <p>
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="top-content-border">
+            <ul class="rating-list">
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+            <a class="btn" href="course.html">Know Details<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="info">
+          <img src="./images/c2.jpg" alt="" />
+          <div class="meta-list">
+            <a href="courses.html">Digital</a>
+            <a href="courses.html">Learn</a>
+            <a href="courses.html">10% off</a>
+          </div>
+          <div class="course-price-item">
+            <h6>$900</h6>
+          </div>
+        </div>
+        <div class="content">
+          <div class="content-top">
+            <ul>
+              <li><i class="fa fa-signal" aria-hidden="true"></i> High</li>
+              <li>
+                <i class="fa fa-clock-o" aria-hidden="true"></i> 10 week
+              </li>
+            </ul>
+          </div>
+          <h4><a href="courses.html">It's enim ad minim ate</a></h4>
+          <p>
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="top-content-border">
+            <ul class="rating-list">
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+            <a class="btn btn-style btn-style-primary" href="course.html">Know Details<i class="fa fa-arrow-right ml-2"
+                aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="info">
+          <img src="./images/c3.jpg" alt="" />
+          <div class="meta-list">
+            <a href="courses.html">Html</a>
+            <a href="courses.html">Java</a>
+          </div>
+          <div class="course-price-item">
+            <h6>$99</h6>
+          </div>
+        </div>
+        <div class="content">
+          <div class="content-top">
+            <ul>
+              <li>
+                <i class="fa fa-signal" aria-hidden="true"></i> Beginner
+              </li>
+              <li>
+                <i class="fa fa-clock-o" aria-hidden="true"></i> 10 week
+              </li>
+            </ul>
+          </div>
+          <h4><a href="courses.html">Ullamco laboris nisi uts</a></h4>
+          <p>
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="top-content-border">
+            <ul class="rating-list">
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star-o" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+            <a class="btn btn-style btn-style-primary" href="course.html">Know Details<i class="fa fa-arrow-right ml-2"
+                aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="info">
+          <img src="./images/c4.jpg" alt="" />
+          <div class="meta-list">
+            <a href="courses.html">Website</a>
+            <a href="courses.html">Wordpress</a>
+          </div>
+          <div class="course-price-item">
+            <h6>$369</h6>
+          </div>
+        </div>
+        <div class="content">
+          <div class="content-top">
+            <ul>
+              <li>
+                <i class="fa fa-signal" aria-hidden="true"></i> Intermediate
+              </li>
+              <li>
+                <i class="fa fa-clock-o" aria-hidden="true"></i> 10 week
+              </li>
+            </ul>
+          </div>
+          <h4><a href="courses.html">Donec sed teus enime</a></h4>
+          <p>
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="top-content-border">
+            <ul class="rating-list">
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+            <a class="btn btn-style btn-style-primary" href="course.html">Know Details<i class="fa fa-arrow-right ml-2"
+                aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="info">
+          <img src="./images/c5.jpg" alt="" />
+          <div class="meta-list">
+            <a href="courses.html">Marketing</a>
+            <a href="courses.html">Edu</a>
+          </div>
+          <div class="course-price-item">
+            <h6>$499</h6>
+          </div>
+        </div>
+        <div class="content">
+          <div class="content-top">
+            <ul>
+              <li><i class="fa fa-signal" aria-hidden="true"></i> High</li>
+              <li>
+                <i class="fa fa-clock-o" aria-hidden="true"></i> 10 week
+              </li>
+            </ul>
+          </div>
+          <h4><a href="courses.html">It's enim ad minim ate</a></h4>
+          <p>
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="top-content-border">
+            <ul class="rating-list">
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star-o" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+            <a class="btn btn-style btn-style-primary" href="course.html">Know Details<i class="fa fa-arrow-right ml-2"
+                aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="info">
+          <img src="./images/c6.jpg" alt="" />
+          <div class="meta-list">
+            <a href="courses.html">Study</a>
+            <a href="courses.html">Accadamic</a>
+          </div>
+          <div class="course-price-item">
+            <h6>$289</h6>
+          </div>
+        </div>
+        <div class="content">
+          <div class="content-top">
+            <ul>
+              <li>
+                <i class="fa fa-signal" aria-hidden="true"></i> Beginner
+              </li>
+              <li>
+                <i class="fa fa-clock-o" aria-hidden="true"></i> 10 week
+              </li>
+            </ul>
+          </div>
+          <h4><a href="courses.html">Ullamco laboris nisi uts</a></h4>
+          <p>
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="top-content-border">
+            <ul class="rating-list">
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#rate"><i class="fa fa-star" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+            <a class="btn btn-style btn-style-primary" href="course.html">Know Details<i class="fa fa-arrow-right ml-2"
+                aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="more">
+        <a href="#">
+          Browse more courses<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="grids">
+    <div class="container">
+      <div class="item">
+        <div class="content">
+          <div class="icon">
+            <i class="fa fa-american-sign-language-interpreting" aria-hidden="true"></i>
+          </div>
+          <div class="icon-info">
+            <h5>Flexible Classes</h5>
+            <p>Lorem ipsum dolor sit amet, dolor elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="content">
+          <div class="icon">
+            <i class="fa fa-download" aria-hidden="true"></i>
+          </div>
+          <div class="icon-info">
+            <h5>Offline Mode</h5>
+            <p>Lorem ipsum dolor sit amet, dolor elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="content">
+          <div class="icon">
+            <i class="fa fa-headphones" aria-hidden="true"></i>
+          </div>
+          <div class="icon-info">
+            <h5>Educator Help</h5>
+            <p>Lorem ipsum dolor sit amet, dolor elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="content">
+          <div class="icon">
+            <i class="fa fa-play-circle" aria-hidden="true"></i>
+          </div>
+          <div class="icon-info">
+            <h5>Online Classes</h5>
+            <p>Lorem ipsum dolor sit amet, dolor elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="container">
+      <div class="title">
+        <h1>Strength in <span>Numbers</span></h1>
+        <p>
+          Similique sunt in culpa qui officia deserunt mollitia animi, id est
+          laborum et dolorum fuga.
+        </p>
+      </div>
+      <div class="list">
+        <div class="counter">
+          <div class="timer numscroller" data-slno="1" data-min="0" data-max="6300" data-delay="0" data-increment="4">
+            0
+          </div>
+
+          <p>Learners & counting</p>
+        </div>
+
+        <div class="counter">
+          <div class="timer numscroller" data-slno="1" data-min="0" data-max="638" data-delay="8" data-increment="1">
+            0
+          </div>
+          <p>Total courses</p>
+        </div>
+
+        <div class="counter">
+          <div class="timer numscroller" data-slno="1" data-min="0" data-max="7600" data-delay="0" data-increment="4">
+            0
+          </div>
+          <p>Successful students</p>
+        </div>
+
+        <div class="counter">
+          <div class="timer numscroller" data-slno="1" data-min="0" data-max="36" data-delay="8" data-increment="1">
+            0
+          </div>
+          <p>Languages</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonial">
+    <div class="container">
+      <div class="title">
+        <h1>Student Community <span>Feedback </span></h1>
+      </div>
+      <div class="list">
+        <div class="item">
+          <div class="content">
+            <p class="test">
+              <q>
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                nihil impedit.</q>
+            </p>
+            <div class="author">
+              <div class="testi-img-res">
+                <img src="./images/testi1.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="name">
+                <h1>Petey Cruis</h1>
+                <p>Caption Here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <p class="test">
+              <q>
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                nihil impedit.</q>
+            </p>
+            <div class="author">
+              <div class="testi-img-res">
+                <img src="./images/testi2.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="name">
+                <h1>Molive Joe</h1>
+                <p>Caption Here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <p class="test">
+              <q>
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                nihil impedit.</q>
+            </p>
+            <div class="author">
+              <div class="testi-img-res">
+                <img src="./images/testi3.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="name">
+                <h1>Paige Turner</h1>
+                <p>Caption Here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team">
+    <div class="container">
+      <div class="title">
+        <h1>World Class <span>Instructors </span></h1>
+      </div>
+      <div class="list">
+        <div class="item">
+          <div class="content">
+            <div class="top">
+              <a href="#">
+                <img src="./images/team1.jpg" alt="" />
+
+                <div class="info">
+                  <div class="social-icons">
+                    <a class="fac" href="#facebook">
+                      <span class="fa fa-facebook"></span>
+                    </a>
+                    <a class="twitter" href="#twitter">
+                      <span class="fa fa-twitter"></span>
+                    </a>
+                    <a class="google" href="#google-plus">
+                      <span class="fa fa-google-plus"></span>
+                    </a>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="bottom">
+              <h1><a href="#team"> Olive Yew </a></h1>
+              <p>Teaches Design</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <div class="top">
+              <a href="#">
+                <img src="./images/team2.jpg" alt="" />
+
+                <div class="info">
+                  <div class="social-icons">
+                    <a class="fac" href="#facebook">
+                      <span class="fa fa-facebook"></span>
+                    </a>
+                    <a class="twitter mx-2" href="#twitter">
+                      <span class="fa fa-twitter"></span>
+                    </a>
+                    <a class="google" href="#google-plus">
+                      <span class="fa fa-google-plus"></span>
+                    </a>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="bottom">
+              <h1><a href="#team"> Aida Joe </a></h1>
+              <p>UI/UX Designer</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <div class="top">
+              <a href="#">
+                <img src="./images/team3.jpg" alt="" />
+
+                <div class="info">
+                  <div class="social-icons">
+                    <a class="fac" href="#facebook">
+                      <span class="fa fa-facebook"></span>
+                    </a>
+                    <a class="twitter mx-2" href="#twitter">
+                      <span class="fa fa-twitter"></span>
+                    </a>
+                    <a class="google" href="#google-plus">
+                      <span class="fa fa-google-plus"></span>
+                    </a>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="bottom">
+              <h1><a href="#team"> Teri Dac </a></h1>
+              <p>Teaches Skills</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="content">
+            <div class="top">
+              <a href="#">
+                <img src="./images/team4.jpg" alt="" />
+
+                <div class="info">
+                  <div class="social-icons">
+                    <a class="fac" href="#facebook">
+                      <span class="fa fa-facebook"></span>
+                    </a>
+                    <a class="twitter mx-2" href="#twitter">
+                      <span class="fa fa-twitter"></span>
+                    </a>
+                    <a class="google" href="#google-plus">
+                      <span class="fa fa-google-plus"></span>
+                    </a>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="bottom">
+              <h1><a href="#team"> Anton Bne </a></h1>
+              <p>Web Designer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <div class="content">
+        <div class="left">
+          <img src="./images/image.png" alt="" />
+        </div>
+        <div class="right">
+          <h1 class="title">
+            Not Sure Where to Begin? <br />Contact Now, We will Help you
+          </h1>
+          <p>
+            Consectetur adipiscing elit. Aliquam sit amet efficitur
+            tortor.Uspendisse efficitur orci urna. In et augue ornare, tempor
+            massa in, luctus sapien.
+          </p>
+          <div class="button">
+            <a class="btn" href="#">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-sub">
+      <div class="container">
+        <div class="text-txt">
+          <div class="right-side">
+            <!-- form section -->
+            <div class="form">
+              <div class="text">
+                <h1 class="title">Subscribe Us to join our Community</h1>
+                <p>Newsletter</p>
+              </div>
+              <div class="input">
+                <form action="#url" method="GET" class="rightside-form">
+                  <input type="email" class="form-control" name="email" placeholder="Enter your email" />
+                  <button class="btn" type="submit">Send</button>
+                </form>
+              </div>
+            </div>
+            <!-- //form section -->
+          </div>
+          <div class="sub-columns">
+            <div class="content1">
+              <h1>Quick links</h1>
+              <ul>
+                <li>
+                  <a href="index.html"><span class="fa fa-angle-double-right"></span>Home</a>
+                </li>
+                <li>
+                  <a href="#about"><span class="fa fa-angle-double-right"></span>About</a>
+                </li>
+                <li>
+                  <a href="#courses"><span class="fa fa-angle-double-right"></span>Courses</a>
+                </li>
+                <li>
+                  <a href="#contact"><span class="fa fa-angle-double-right"></span>Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="content2">
+              <h1>Help & Support</h1>
+              <ul>
+                <li>
+                  <a href="#live"><span class="fa fa-angle-double-right"></span>Live
+                    Chart</a>
+                </li>
+                <li>
+                  <a href="#faq"><span class="fa fa-angle-double-right"></span>Faq</a>
+                </li>
+                <li>
+                  <a href="#support"><span class="fa fa-angle-double-right"></span>Support</a>
+                </li>
+                <li>
+                  <a href="#terms"><span class="fa fa-angle-double-right"></span>Terms of
+                    Services</a>
+                </li>
+              </ul>
+            </div>
+            <div class="content3">
+              <h1>Contact</h1>
+              <div class="column2">
+                <div class="href1">
+                  <span class="fa fa-envelope-o" aria-hidden="true"></span><a
+                    href="mailto:info@example.com">info@example.com</a>
+                </div>
+                <div class="href2">
+                  <span class="fa fa-phone" aria-hidden="true"></span><a href="tel:+44-000-888-999">+44-000-888-999</a>
+                </div>
+                <div>
+                  <p class="contact-para">
+                    <span class="fa fa-map-marker" aria-hidden="true"></span>London, 235 Terry, 10001
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="content4">
+              <h1>About</h1>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque
+                ipsa quae ab.
+              </p>
+              <div class="columns-2">
+                <ul class="social">
+                  <li>
+                    <a href="#facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                  </li>
+                  <li>
+                    <a href="#linkedin"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
+                  </li>
+                  <li>
+                    <a href="#twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
+                  </li>
+                  <li>
+                    <a href="#google"><span class="fa fa-google-plus" aria-hidden="true"></span></a>
+                  </li>
+                  <li>
+                    <a href="#github"><span class="fa fa-github" aria-hidden="true"></span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- copyright -->
+    <div class="copyright">
+      <div class="container">
+        <div class="columns">
+          <p>
+            @2021 Studious. All rights reserved. Design by
+            <a href="https://w3layouts.com/" target="_blank"> W3Layouts</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- //copyright -->
+  </footer>
+  <button onclick="topFunction()" id="scroll" title="Go to top">
+    <img src="./images/level-up-alt.png" alt="" />
+  </button>
+
+  <!-- Javascript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./js/index.js" type="text/javascript"></script>
+</body>
+
+</html>
